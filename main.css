@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 3vh;
+    width: 50vh;
+    height: 55vh;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    border: gray 2px solid;
+    background-color: black;
+}
+
+#gray {
+    border: transparent;
+    background-color: rgba(128, 128, 128, 0.621);
+}
+
+#yellow {
+    border: transparent;
+    background-color: rgba(255, 200, 61, 0.804);
+}
+
+#green {
+    border: transparent;
+    background-color: rgba(40, 175, 40, 0.628);
+}
+
+.keyboard {
+    margin-top: 2vh;
+}
+
+#newGame {
+    margin-top: 1vh;
+    width: fit-content;
+    background-color: rgba(77, 209, 95, 0.687);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 5vh;
+    height: 5vh;
+    color: white;
+    background-color: gray;
+    font-size: 1.5vh;
+    border: black solid;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
