@@ -58,8 +58,9 @@ body {
 }
 
 button {
-    width: 5vh;
-    height: 5vh;
+    width: auto;
+    height: auto;
+    padding: 9px 12px;
     color: white;
     background-color: gray;
     font-size: 1.5vh;
